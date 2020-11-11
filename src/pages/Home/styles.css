@@ -1,0 +1,74 @@
+#page-home {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Ubuntu;
+}
+
+#page-home .country-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-home .country-title h2 {
+  margin-bottom: -30px;
+  margin-top: 30px;
+  color: #6b6b6b;
+}
+
+#page-home main #presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px #ddd solid;
+  box-shadow: 0px 3px 5px 0px #ddd;
+  border-radius: 10px;
+  margin: 2.4rem 2.4rem 0 2.4rem;
+}
+
+@media (min-width: 1500px) {
+  /*o id é sempre mais poderoso que a classe*/
+
+  #page-home {
+      width: fit-content;
+      max-width: fit-content;
+      height: fit-content;
+      background-color: #fff;
+
+      display: flex;
+      flex-direction: column;
+      font-family: Ubuntu;
+  }
+
+  #page-home .country-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page-home .country-title h2 {
+    margin-bottom: -30px;
+    margin-top: 0px;
+    color: #6b6b6b;
+  }
+
+  #page-home main #presentation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 1px #ddd solid;
+    box-shadow: 0px 3px 5px 0px #ddd;
+    border-radius: 10px;
+    margin: 2.4rem 2.4rem 0 2.4rem;
+    width: fit-content;
+  }
+
+  #page-home main #footer-presentation {
+    display: flex;
+    flex-direction: row;
+  }
+}
+

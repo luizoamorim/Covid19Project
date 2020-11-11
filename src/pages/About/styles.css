@@ -1,0 +1,215 @@
+#page-about {
+  font-family: Ubuntu;
+  width: inherit;
+}
+
+#page-about .about-box{
+  border: 1px solid #ddd;
+  margin: 2.4rem;
+  border-radius: 10px;
+  padding: 0 1.4rem 1.4rem 1.4rem;
+  width: fit-content;
+}
+
+#page-about .about-box .author-image{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+#page-about .about-box .author-image img{
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+#page-about .about-box .title{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#page-about .about-box .author-name{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+#page-about .about-box .author-name h3{
+  color: #6b6b6b;
+  font-size: 22px;
+}
+
+#page-about .about-box .title .title-with-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+#page-about .about-box .title h2{
+  color: #6b6b6b;
+}
+
+#page-about .about-box .title img{
+  width: 7.4rem;
+  height: 7.4rem;
+  margin-left: 0.8rem;
+}
+
+#page-about .about-box .text{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 0 1.4rem 1.4rem 1.4rem;
+  font-size: 14px;
+}
+
+#page-about .about-box .text .text-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#page-about .about-box .text .text-display .images{
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.8rem;
+}
+
+
+#page-about .about-box .text .text-display li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.8rem;
+}
+
+#page-about .about-box .text .text-display li a{
+  text-decoration: none;
+  color: #b2babb ;
+  transition: background-color 0.2s;
+}
+
+#page-about .about-box .text .text-display li a:hover{
+  text-decoration: none;
+  color:  #707b7c  ;
+}
+
+#page-about .about-box .text .text-display li p{
+  margin-right: 0.8rem;
+}
+
+
+@media (min-width: 1500px) {
+  #page-about {
+    font-family: Ubuntu;
+  }
+
+  #page-about .about-box{
+    border: 1px solid #ddd;
+    margin: 2.4rem;
+    border-radius: 10px;
+    padding: 0 1.4rem 1.4rem 1.4rem;
+    width: inherit;
+  }
+
+  #page-about .about-box .author-image{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+
+  #page-about .about-box .author-image img{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+  }
+
+  #page-about .about-box .title{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  #page-about .about-box .author-name{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  #page-about .about-box .author-name h3{
+    color: #6b6b6b;
+    font-size: 22px;
+  }
+
+  #page-about .about-box .title .title-with-image{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  #page-about .about-box .title h2{
+    color: #6b6b6b;
+  }
+
+  #page-about .about-box .title img{
+    width: 10.4rem;
+    height: 10.4rem;
+    margin-left: 0.8rem;
+  }
+
+  #page-about .about-box .text{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 0 15.4rem 1.4rem 15.4rem;
+    font-size: 20px;
+  }
+
+  #page-about .about-box .text .text-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #page-about .about-box .text .text-display .images{
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 0.8rem;
+  }
+
+
+  #page-about .about-box .text .text-display li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #page-about .about-box .text .text-display li a{
+    text-decoration: none;
+    color: #b2babb ;
+    transition: background-color 0.2s;
+  }
+
+  #page-about .about-box .text .text-display li a:hover{
+    text-decoration: none;
+    color:  #707b7c  ;
+  }
+
+  #page-about .about-box .text .text-display li p{
+    margin-right: 0.8rem;
+  }
+
+  #page-about .about-box .text .text-display #ul-about-me{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+}

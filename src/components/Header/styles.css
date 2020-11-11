@@ -1,0 +1,128 @@
+.container {
+    width: inherit;
+}
+
+.container h1 {
+  font-family: 'Ubuntu';
+  color: #fff;
+  font-size: 18px;
+}
+
+.container h1 a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0.4rem;
+}
+
+.container .header {
+  padding: 0.2rem;
+  background-color:  #b03a2e   ;
+  box-shadow: 3px 3px 10px #aaaaaa;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.container .header .content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .header .content-header .logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container .header img {
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-right: 0.4rem;
+}
+
+.container .header .content-header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1.4rem;
+}
+
+.container .header .content-header .nav h2 {
+  color: #fff;
+  font-size: 12px;
+}
+
+.container .header .content-header .nav h2:last-child {
+  margin-left: 1.8rem;
+}
+
+.container .header .content-header .nav a {
+  text-decoration: none;
+}
+
+
+@media (min-width: 1500px) {
+  /*o id é sempre mais poderoso que a classe*/
+
+  .container {
+    width: 100%;
+  }
+
+  .container h1 {
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .container h1 a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 0.6rem;
+  }
+
+  .container .header {
+    padding: 0.2rem;
+    background-color:  #b03a2e   ;
+    box-shadow: 3px 3px 10px #aaaaaa;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+
+  .container .header .content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container .header .content-header .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .container .header img {
+    width: 4.2rem;
+    height: 4.2rem;
+    margin-right: 1.2rem;
+    margin-left: 0.6rem;
+  }
+
+  .container .header .content-header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 6.4rem;
+  }
+
+  .container .header .content-header .nav h2 {
+    color: #fff;
+    font-size: 22px;
+    margin-right: 2.4rem;
+  }
+
+  .container .header .content-header .nav a {
+    text-decoration: none;
+  }
+}

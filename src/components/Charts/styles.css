@@ -1,0 +1,11 @@
+#container-chart #component-chart {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1500px) {
+  #container-chart #component-chart {
+    margin-bottom: 0;
+  }
+}
+
+

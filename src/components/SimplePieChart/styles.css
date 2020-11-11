@@ -1,0 +1,29 @@
+#component-pie .lineChart-pie {
+  margin: 2.4rem 2.4rem -7rem;
+  padding: 0 1.4rem 0 1.4rem;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#component-pie .lineChart-pie h2{
+  color: #6b6b6b;
+  margin-bottom: 0.4rem;
+}
+
+@media (min-width: 1500px) {
+  #component-pie .lineChart-pie {
+    margin: 2.4rem 2.4rem -5rem;
+    padding: 0 1.4rem 0 1.4rem;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  #component-pie .lineChart-pie h2{
+    color: #6b6b6b;
+    margin-bottom: -30px;
+  }
+}

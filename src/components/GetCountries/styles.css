@@ -1,0 +1,30 @@
+.container .component-busca {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+
+.container .form-field-name{
+  width: 100%;
+}
+
+.container h2{
+  font-family: 'Ubuntu';
+  color: #6b6b6b;
+}
+
+
+@media (min-width: 1500px) {
+
+  .container .component-busca {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+  }
+
+  .container .form-field-name{
+    width: 25%;
+  }
+
+  .container h3{
+    font-family: 'Ubuntu';
+  }
+}
